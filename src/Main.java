@@ -5,7 +5,7 @@ public class Main {
         NullPoint nullPoint = new NullPoint();
 
         try {
-            nullPoint.nullPoint(null);
+            nullPoint.nullPoint(null, "Здесь могла быть ваша реклама");
         }catch (NullPointerException e){
             System.out.println("Метод принял объект null");
         }

@@ -1,7 +1,7 @@
 public class NullPoint {
 
-    public void nullPoint(String str) throws NullPointerException{
-        System.out.println(str.equals("Здесь могла быть ваша реклама"));
+    public void nullPoint(String firstStr, String secondStr) throws NullPointerException{
+        System.out.println(firstStr.equals(secondStr));
     }
 
 }
