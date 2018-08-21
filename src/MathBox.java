@@ -34,7 +34,7 @@ public class MathBox {
 
     public double divider (Integer a, Integer b) throws Exception {
 
-        if (a != 0 && b != 0) {
+        if (b != 0) {
             double res = a / b;
             return res;
         } else {
