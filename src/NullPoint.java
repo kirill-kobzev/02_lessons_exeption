@@ -1,7 +1,8 @@
-public class NullPoint {
+public class NullPoint extends Exception {
 
-    public void nullPoint(String firstStr, String secondStr) throws NullPointerException{
-        System.out.println(firstStr.equals(secondStr));
+    public NullPoint(String message)
+    {
+        super(message);
     }
 
 }
